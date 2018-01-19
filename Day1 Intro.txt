@@ -1,0 +1,35 @@
+NodeJs
+    Runs JS on command line
+    Javascript on server side
+    
+Environemnt 
+-----------
+
+Node - For server side / APIs
+React - UI
+Redux - Application state manager=ment
+
+webpack - Module bundler
+Babel - Javascript Transpiler
+Gulp - Workflow / Build automation
+
+
+
+Javascript Core Concepts to Learn
+=================================
+
+1. Functional programming
+2. Prototype-Based Object orientation
+3. this
+4. scope - lexical scope
+5. Closures
+6. Method Borrowing
+7. IIFE
+
+
+React Component Types
+=====================
+
+1. Functional components
+2. Class components
+3. 
