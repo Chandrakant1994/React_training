@@ -1,0 +1,23 @@
+Flux
+----
+	Action, Store and Dispatcher	
+
+	Whenever user interacts
+
+Flux vs Redux 
+
+
+	Flux uses multiple stores but Redux manages only one store.
+
+	follow "SOLID" principles to optimize yout code
+
+	Without Redux the programmer has to jump around from this component to that to figure what is happening where.
+	Redux actually provides very neet "separation of concerns".
+
+
+middleware -
+----------
+
+	Middlewares are interceptors which intercept the flow of data and add additional properties then pass it on.
+	ex of what middlewares do -
+	local authentication, filtering
