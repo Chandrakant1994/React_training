@@ -1,0 +1,14 @@
+() =>
+-------
+
+	Arrow functions do not have their context. So no need to use "bind(this)". 
+
+key property 
+------------
+
+	Key property is mandatory for optimisation involved in react uses unique property of each element.
+	note - Assuming the array has unique elements we can use object/element itself as the "key property".
+
+Note - 
+	Be careful when using spans/icons cause sometimes it takes target as the span itself and not the
+	button. 

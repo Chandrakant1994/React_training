@@ -1,0 +1,42 @@
+Project Id 	- 	affable-case-193004
+
+API Key 
+Google 		-	AIzaSyAAKc2wpNrtgvnahA3JTOisGJfCNnhdwa8
+Open Whether	- 	69e3a8399c6e5c77c9bdfa77af977b61
+
+ES6 shorthand 	- 	this.setState({videos})
+			(props.videos) => {} can be written as ({videos}) simply
+
+Creating Youtube Search
+=======================
+
+~ Create youtube data API from Google Developers Console
+~ Save the API key
+~ Install npm package "youtube-api-search" in your package
+~ import "YTSearch" from "youtube-api-seacrh" in your index.js
+~ Make the APi request -
+	
+		YTSearch({ key: API_KEY, term: 'javascript' }, (videos) => {this.setState({videos})})
+
+		Note - the above request is asynchronous. It will execute irrespective of the regular execution.
+
+Creating youtube Player
+=======================
+
+~ We use 'youtube embedding'.
+~ Embedding requires using iframe.
+
+- We can use backtick "`" for interpolation
+	`https://www.youtube.com/embed/${videoId}' instead of "https://www.youtube.com/embed/" + videoId
+
+Note - The search api is limited to 5 searches to keep the apps run faster while using youtube api 
+
+
+" Search Throttling " -  Seacrh should not invoke in every keystroke
+
+lodash
+------
+
+axois 
+-----
+	
