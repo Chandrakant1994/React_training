@@ -37,6 +37,6 @@ Note - The search api is limited to 5 searches to keep the apps run faster while
 lodash
 ------
 
-axois 
+axios 
 -----
 	
